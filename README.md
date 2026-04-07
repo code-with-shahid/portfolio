@@ -1,16 +1,92 @@
-# React + Vite
+# 🚀 Shahid Afridi - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built to showcase my projects, skills, and experience as a Full Stack Developer & AI Enthusiast.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://portfolio-sandy-gamma-83.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio is designed to present my work in a clean and professional way. It highlights my real-world projects, technical skills, and provides an easy way for recruiters and collaborators to connect with me.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* 🌙 Modern dark-themed UI
+* 📱 Fully responsive design
+* 👨‍💻 Projects showcase with live demo & GitHub links
+* 📄 Downloadable resume
+* 📬 Contact form integrated with EmailJS (no backend required)
+* ⚡ Fast performance with Vite
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+
+* React.js
+* Tailwind CSS
+
+**Tools & Services:**
+
+* Vercel (for deployment)
+* Git & GitHub
+
+---
+
+## 📂 Projects Included
+
+### 🔹 InterviewIQ
+
+An AI-powered interview preparation platform that generates real-time questions and feedback.
+
+* Tech: React, Node.js, Express, MongoDB, AI APIs
+* GitHub: https://github.com/code-with-shahid/InterviewIQ
+* Live: https://interviewiq-client-yczp.onrender.com
+
+---
+
+### 🔹 ExamNotesAI
+
+An AI-based notes generator that creates structured study material using generative AI.
+
+* Tech: React, Node.js, Express, MongoDB, AI APIs
+* GitHub: https://github.com/code-with-shahid/ExamNotesAI
+* Live: https://examnotesaiclient-90vb.onrender.com
+
+
+---
+
+## 📬 Contact
+
+* 📧 Email: [mdafridishahid8910@gmail.com](mailto:mdafridishahid8910@gmail.com)
+* 🔗 LinkedIn: https://linkedin.com/in/shahid-afridi-tech
+* 💻 GitHub: https://github.com/code-with-shahid
+
+---
+
+## 💡 Future Improvements
+
+* Add animations and micro-interactions
+* Add blog section
+* Add admin dashboard for messages
+* Improve SEO optimization
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, feel free to ⭐ the repository and connect with me!
+
+---
+
+## 🙌 Acknowledgements
+
+Thanks to all the tools and platforms that made this project possible.
+
+---
+
+> Built with passion by Shahid Afridi 💻🚀
