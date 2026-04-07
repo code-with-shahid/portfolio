@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply m-0 bg-slate-950 text-slate-100 antialiased;
+  }
+}
+
+@layer utilities {
+  @keyframes caret {
+    0%,
+    49% {
+      opacity: 1;
+    }
+    50%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .animate-caret {
+    animation: caret 1s step-end infinite;
+  }
+
+  @keyframes aurora {
+    0% {
+      transform: translate3d(-6%, -2%, 0) scale(1);
+      opacity: 0.7;
+    }
+    50% {
+      transform: translate3d(6%, 2%, 0) scale(1.06);
+      opacity: 0.95;
+    }
+    100% {
+      transform: translate3d(-6%, -2%, 0) scale(1);
+      opacity: 0.75;
+    }
+  }
+
+  .animate-aurora {
+    animation: aurora 7s ease-in-out infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-aurora {
+      animation: none;
+    }
+  }
+}
