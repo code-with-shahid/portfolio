@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-sandy-gamma-83.vercel.app/sitemap.xml
